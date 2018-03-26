@@ -23,7 +23,7 @@ def adivinar(intentos): #se define la funcion
             print('ADIVINO!!!! en intento ' + str(cont))
             break
         if(cont == intentos): #si el contador de intentos es igual al numero de intentos, NO se adivino el numero
-            print('NO ADIVINO!!! SUERTE LA PRÓXIMA VEZ....')
+            print('NO ADIVINO!!! SUERTE LA PRÓXIMA VEZ....'+ 'el numero era ' + str(numero))
             break
 
 
@@ -31,3 +31,6 @@ def adivinar(intentos): #se define la funcion
 #programa principal
 intento = input('Ingrese los intentos:')
 adivinar(int(intento))
+
+
+
